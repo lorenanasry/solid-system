@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <video loop autoplay muted id="my-video">
+        <source src="pyramids.mp4" type="video/mp4">
+
+    
+   <form action="">
+    <h1>Prepare your next trip with me...</h1>
+    <p>please take a moment to get in touch..</p>
+    <div>
+        <div>
+            <label for="name">full name</label>
+            <input type="text" id="name" name="name" required placeholder="enter your full name">
+        </div>
+        <div>
+            <label for="the-email">Email address</label>
+            <input type="text" id="the-email" name="Email" required placeholder="enter your Email">
+        </div>
+        <div>
+            <label for="the-phone">phone number</label>
+            <input type="tel" id="the-phone" name="phone" required placeholder="enter your phone number">
+        </div>
+    </div>
+    <div>
+        <label for="gender">gender</label>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label class="inline-label" for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label class="inline-label" for="female">female</label>
+        </div>
+    </div>
+    <div>
+        <label for="date">arriving date</label>
+        <input type="date" id="date" name="date">
+    </div>
+    <div>
+        <label for="date">departure date</label>
+        <input type="date" id="date" name="date">
+    </div>
+    <div>
+        <label for="file">passport</label>
+        <input type="file" id="file" name="file">
+        
+    <div>
+  <label>for="cities>Where would you like to travel ?</label>
+  <select name="cities" id="cities">
+     <option value="">Choose one</option>
+    <option value="Luxor">Luxor</option>
+    <option value="Cairo">Cairo</option>
+    <option value="Aswan">Aswan</option>
+    <option value="Hurghada">Hurghada</option>
+    <option value="Alex">Alex</option>
+  </select>
+  </div>
+  <div>
+    <input type="checkbox" name="Hotel-Accomadations" id="Hotel-Accomadations">
+    <label for="Hotel-Accomadations" class="inline-label">Hotel Accomadations</label>
+</div>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+ 
+    
